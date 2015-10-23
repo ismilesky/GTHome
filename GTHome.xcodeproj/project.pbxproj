@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57F1FF921BD9CBE50015E530 /* GTFooldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F1FF8B1BD9CBE50015E530 /* GTFooldView.m */; settings = {ASSET_TAGS = (); }; };
+		57F1FF931BD9CBE50015E530 /* GTMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F1FF8D1BD9CBE50015E530 /* GTMenuItem.m */; settings = {ASSET_TAGS = (); }; };
+		57F1FF941BD9CBE50015E530 /* GTMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F1FF8F1BD9CBE50015E530 /* GTMenuView.m */; settings = {ASSET_TAGS = (); }; };
+		57F1FF951BD9CBE50015E530 /* GTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F1FF911BD9CBE50015E530 /* GTProgressView.m */; settings = {ASSET_TAGS = (); }; };
+		57F1FF9C1BD9CE1E0015E530 /* GTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F1FF971BD9CE1E0015E530 /* GTCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		57F1FF9D1BD9CE1E0015E530 /* GTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F1FF991BD9CE1E0015E530 /* GTTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		57F1FF9E1BD9CE1E0015E530 /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F1FF9B1BD9CE1E0015E530 /* GTViewController.m */; settings = {ASSET_TAGS = (); }; };
+		57F1FFA21BD9CF060015E530 /* GTLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F1FFA11BD9CF060015E530 /* GTLoopView.m */; settings = {ASSET_TAGS = (); }; };
+		57F1FFA61BD9CF9D0015E530 /* GTImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F1FFA51BD9CF9D0015E530 /* GTImageViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		57F1FFAA1BD9D8220015E530 /* GTShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F1FFA81BD9D8220015E530 /* GTShowCell.m */; settings = {ASSET_TAGS = (); }; };
+		57F1FFAB1BD9D8220015E530 /* GTShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57F1FFA91BD9D8220015E530 /* GTShowCell.xib */; settings = {ASSET_TAGS = (); }; };
+		C25AA2191BD76FAD000E5E65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C25AA2181BD76FAD000E5E65 /* main.m */; };
+		C25AA21F1BD76FAD000E5E65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25AA21E1BD76FAD000E5E65 /* ViewController.m */; };
+		C25AA2221BD76FAD000E5E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25AA2201BD76FAD000E5E65 /* Main.storyboard */; };
+		C25AA2241BD76FAD000E5E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25AA2231BD76FAD000E5E65 /* Images.xcassets */; };
+		C25AA2271BD76FAD000E5E65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25AA2251BD76FAD000E5E65 /* LaunchScreen.xib */; };
+		C25AA2331BD76FAD000E5E65 /* GTHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C25AA2321BD76FAD000E5E65 /* GTHomeTests.m */; };
+		C25AA2441BD770C4000E5E65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C25AA23F1BD770C4000E5E65 /* AppDelegate.m */; };
+		C25AA24B1BD78F04000E5E65 /* GTPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25AA24A1BD78F04000E5E65 /* GTPageController.m */; };
+		C25AA2501BD79264000E5E65 /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C25AA24D1BD79264000E5E65 /* h3.jpg */; };
+		C25AA2511BD79264000E5E65 /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C25AA24E1BD79264000E5E65 /* h1.jpg */; };
+		C25AA2521BD79264000E5E65 /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C25AA24F1BD79264000E5E65 /* h2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C25AA22D1BD76FAD000E5E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25AA20B1BD76FAD000E5E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25AA2121BD76FAD000E5E65;
+			remoteInfo = GTHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57F1FF8A1BD9CBE50015E530 /* GTFooldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTFooldView.h; sourceTree = "<group>"; };
+		57F1FF8B1BD9CBE50015E530 /* GTFooldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFooldView.m; sourceTree = "<group>"; };
+		57F1FF8C1BD9CBE50015E530 /* GTMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMenuItem.h; sourceTree = "<group>"; };
+		57F1FF8D1BD9CBE50015E530 /* GTMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMenuItem.m; sourceTree = "<group>"; };
+		57F1FF8E1BD9CBE50015E530 /* GTMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMenuView.h; sourceTree = "<group>"; };
+		57F1FF8F1BD9CBE50015E530 /* GTMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMenuView.m; sourceTree = "<group>"; };
+		57F1FF901BD9CBE50015E530 /* GTProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTProgressView.h; sourceTree = "<group>"; };
+		57F1FF911BD9CBE50015E530 /* GTProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTProgressView.m; sourceTree = "<group>"; };
+		57F1FF961BD9CE1E0015E530 /* GTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTCollectionViewController.h; sourceTree = "<group>"; };
+		57F1FF971BD9CE1E0015E530 /* GTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTCollectionViewController.m; sourceTree = "<group>"; };
+		57F1FF981BD9CE1E0015E530 /* GTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTableViewController.h; sourceTree = "<group>"; };
+		57F1FF991BD9CE1E0015E530 /* GTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTableViewController.m; sourceTree = "<group>"; };
+		57F1FF9A1BD9CE1E0015E530 /* GTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
+		57F1FF9B1BD9CE1E0015E530 /* GTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
+		57F1FFA01BD9CF060015E530 /* GTLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLoopView.h; sourceTree = "<group>"; };
+		57F1FFA11BD9CF060015E530 /* GTLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLoopView.m; sourceTree = "<group>"; };
+		57F1FFA41BD9CF9D0015E530 /* GTImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTImageViewCell.h; sourceTree = "<group>"; };
+		57F1FFA51BD9CF9D0015E530 /* GTImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTImageViewCell.m; sourceTree = "<group>"; };
+		57F1FFA71BD9D8220015E530 /* GTShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTShowCell.h; sourceTree = "<group>"; };
+		57F1FFA81BD9D8220015E530 /* GTShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTShowCell.m; sourceTree = "<group>"; };
+		57F1FFA91BD9D8220015E530 /* GTShowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTShowCell.xib; sourceTree = "<group>"; };
+		C25AA2131BD76FAD000E5E65 /* GTHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25AA2171BD76FAD000E5E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25AA2181BD76FAD000E5E65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C25AA21D1BD76FAD000E5E65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C25AA21E1BD76FAD000E5E65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C25AA2211BD76FAD000E5E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C25AA2231BD76FAD000E5E65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C25AA2261BD76FAD000E5E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C25AA22C1BD76FAD000E5E65 /* GTHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25AA2311BD76FAD000E5E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25AA2321BD76FAD000E5E65 /* GTHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTHomeTests.m; sourceTree = "<group>"; };
+		C25AA23E1BD770C4000E5E65 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C25AA23F1BD770C4000E5E65 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C25AA2491BD78F04000E5E65 /* GTPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTPageController.h; sourceTree = "<group>"; };
+		C25AA24A1BD78F04000E5E65 /* GTPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTPageController.m; sourceTree = "<group>"; };
+		C25AA24C1BD78F49000E5E65 /* GTHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTHeader.h; sourceTree = "<group>"; };
+		C25AA24D1BD79264000E5E65 /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
+		C25AA24E1BD79264000E5E65 /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
+		C25AA24F1BD79264000E5E65 /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C25AA2101BD76FAD000E5E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25AA2291BD76FAD000E5E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57F1FF891BD9CBE50015E530 /* GTenuView */ = {
+			isa = PBXGroup;
+			children = (
+				57F1FF8A1BD9CBE50015E530 /* GTFooldView.h */,
+				57F1FF8B1BD9CBE50015E530 /* GTFooldView.m */,
+				57F1FF8C1BD9CBE50015E530 /* GTMenuItem.h */,
+				57F1FF8D1BD9CBE50015E530 /* GTMenuItem.m */,
+				57F1FF8E1BD9CBE50015E530 /* GTMenuView.h */,
+				57F1FF8F1BD9CBE50015E530 /* GTMenuView.m */,
+				57F1FF901BD9CBE50015E530 /* GTProgressView.h */,
+				57F1FF911BD9CBE50015E530 /* GTProgressView.m */,
+			);
+			name = GTenuView;
+			path = WMMenuView;
+			sourceTree = "<group>";
+		};
+		57F1FF9F1BD9CED10015E530 /* LoopView */ = {
+			isa = PBXGroup;
+			children = (
+				57F1FFA01BD9CF060015E530 /* GTLoopView.h */,
+				57F1FFA11BD9CF060015E530 /* GTLoopView.m */,
+			);
+			path = LoopView;
+			sourceTree = "<group>";
+		};
+		57F1FFA31BD9CF820015E530 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				57F1FFA41BD9CF9D0015E530 /* GTImageViewCell.h */,
+				57F1FFA51BD9CF9D0015E530 /* GTImageViewCell.m */,
+				57F1FFA71BD9D8220015E530 /* GTShowCell.h */,
+				57F1FFA81BD9D8220015E530 /* GTShowCell.m */,
+				57F1FFA91BD9D8220015E530 /* GTShowCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		C25AA20A1BD76FAD000E5E65 = {
+			isa = PBXGroup;
+			children = (
+				C25AA2151BD76FAD000E5E65 /* GTHome */,
+				C25AA22F1BD76FAD000E5E65 /* GTHomeTests */,
+				C25AA2141BD76FAD000E5E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C25AA2141BD76FAD000E5E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25AA2131BD76FAD000E5E65 /* GTHome.app */,
+				C25AA22C1BD76FAD000E5E65 /* GTHomeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C25AA2151BD76FAD000E5E65 /* GTHome */ = {
+			isa = PBXGroup;
+			children = (
+				C25AA23C1BD770C4000E5E65 /* Classes */,
+				C25AA21D1BD76FAD000E5E65 /* ViewController.h */,
+				C25AA21E1BD76FAD000E5E65 /* ViewController.m */,
+				C25AA2201BD76FAD000E5E65 /* Main.storyboard */,
+				C25AA2231BD76FAD000E5E65 /* Images.xcassets */,
+				C25AA2251BD76FAD000E5E65 /* LaunchScreen.xib */,
+				C25AA2161BD76FAD000E5E65 /* Supporting Files */,
+			);
+			path = GTHome;
+			sourceTree = "<group>";
+		};
+		C25AA2161BD76FAD000E5E65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C25AA24D1BD79264000E5E65 /* h3.jpg */,
+				C25AA24E1BD79264000E5E65 /* h1.jpg */,
+				C25AA24F1BD79264000E5E65 /* h2.jpg */,
+				C25AA2171BD76FAD000E5E65 /* Info.plist */,
+				C25AA2181BD76FAD000E5E65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C25AA22F1BD76FAD000E5E65 /* GTHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C25AA2321BD76FAD000E5E65 /* GTHomeTests.m */,
+				C25AA2301BD76FAD000E5E65 /* Supporting Files */,
+			);
+			path = GTHomeTests;
+			sourceTree = "<group>";
+		};
+		C25AA2301BD76FAD000E5E65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C25AA2311BD76FAD000E5E65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C25AA23C1BD770C4000E5E65 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C25AA23D1BD770C4000E5E65 /* AppDelegate */,
+				C25AA2401BD770C4000E5E65 /* Home(首页) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C25AA23D1BD770C4000E5E65 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C25AA23E1BD770C4000E5E65 /* AppDelegate.h */,
+				C25AA23F1BD770C4000E5E65 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C25AA2401BD770C4000E5E65 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				C25AA2411BD770C4000E5E65 /* Controller */,
+				C25AA2421BD770C4000E5E65 /* Model */,
+				C25AA2431BD770C4000E5E65 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		C25AA2411BD770C4000E5E65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57F1FF961BD9CE1E0015E530 /* GTCollectionViewController.h */,
+				57F1FF971BD9CE1E0015E530 /* GTCollectionViewController.m */,
+				57F1FF981BD9CE1E0015E530 /* GTTableViewController.h */,
+				57F1FF991BD9CE1E0015E530 /* GTTableViewController.m */,
+				57F1FF9A1BD9CE1E0015E530 /* GTViewController.h */,
+				57F1FF9B1BD9CE1E0015E530 /* GTViewController.m */,
+				C25AA2481BD78EA2000E5E65 /* GTPageController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C25AA2421BD770C4000E5E65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C25AA2431BD770C4000E5E65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57F1FFA31BD9CF820015E530 /* CustomCell */,
+				57F1FF9F1BD9CED10015E530 /* LoopView */,
+				57F1FF891BD9CBE50015E530 /* GTenuView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C25AA2481BD78EA2000E5E65 /* GTPageController */ = {
+			isa = PBXGroup;
+			children = (
+				C25AA2491BD78F04000E5E65 /* GTPageController.h */,
+				C25AA24A1BD78F04000E5E65 /* GTPageController.m */,
+				C25AA24C1BD78F49000E5E65 /* GTHeader.h */,
+			);
+			path = GTPageController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C25AA2121BD76FAD000E5E65 /* GTHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25AA2361BD76FAD000E5E65 /* Build configuration list for PBXNativeTarget "GTHome" */;
+			buildPhases = (
+				C25AA20F1BD76FAD000E5E65 /* Sources */,
+				C25AA2101BD76FAD000E5E65 /* Frameworks */,
+				C25AA2111BD76FAD000E5E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTHome;
+			productName = GTHome;
+			productReference = C25AA2131BD76FAD000E5E65 /* GTHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C25AA22B1BD76FAD000E5E65 /* GTHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25AA2391BD76FAD000E5E65 /* Build configuration list for PBXNativeTarget "GTHomeTests" */;
+			buildPhases = (
+				C25AA2281BD76FAD000E5E65 /* Sources */,
+				C25AA2291BD76FAD000E5E65 /* Frameworks */,
+				C25AA22A1BD76FAD000E5E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25AA22E1BD76FAD000E5E65 /* PBXTargetDependency */,
+			);
+			name = GTHomeTests;
+			productName = GTHomeTests;
+			productReference = C25AA22C1BD76FAD000E5E65 /* GTHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C25AA20B1BD76FAD000E5E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GT;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = kf;
+				TargetAttributes = {
+					C25AA2121BD76FAD000E5E65 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C25AA22B1BD76FAD000E5E65 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C25AA2121BD76FAD000E5E65;
+					};
+				};
+			};
+			buildConfigurationList = C25AA20E1BD76FAD000E5E65 /* Build configuration list for PBXProject "GTHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C25AA20A1BD76FAD000E5E65;
+			productRefGroup = C25AA2141BD76FAD000E5E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C25AA2121BD76FAD000E5E65 /* GTHome */,
+				C25AA22B1BD76FAD000E5E65 /* GTHomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C25AA2111BD76FAD000E5E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25AA2511BD79264000E5E65 /* h1.jpg in Resources */,
+				C25AA2501BD79264000E5E65 /* h3.jpg in Resources */,
+				C25AA2221BD76FAD000E5E65 /* Main.storyboard in Resources */,
+				C25AA2521BD79264000E5E65 /* h2.jpg in Resources */,
+				57F1FFAB1BD9D8220015E530 /* GTShowCell.xib in Resources */,
+				C25AA2271BD76FAD000E5E65 /* LaunchScreen.xib in Resources */,
+				C25AA2241BD76FAD000E5E65 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25AA22A1BD76FAD000E5E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C25AA20F1BD76FAD000E5E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F1FF9E1BD9CE1E0015E530 /* GTViewController.m in Sources */,
+				57F1FF9C1BD9CE1E0015E530 /* GTCollectionViewController.m in Sources */,
+				57F1FF931BD9CBE50015E530 /* GTMenuItem.m in Sources */,
+				C25AA21F1BD76FAD000E5E65 /* ViewController.m in Sources */,
+				57F1FF951BD9CBE50015E530 /* GTProgressView.m in Sources */,
+				57F1FFAA1BD9D8220015E530 /* GTShowCell.m in Sources */,
+				57F1FF941BD9CBE50015E530 /* GTMenuView.m in Sources */,
+				57F1FF9D1BD9CE1E0015E530 /* GTTableViewController.m in Sources */,
+				C25AA2191BD76FAD000E5E65 /* main.m in Sources */,
+				57F1FFA21BD9CF060015E530 /* GTLoopView.m in Sources */,
+				57F1FF921BD9CBE50015E530 /* GTFooldView.m in Sources */,
+				57F1FFA61BD9CF9D0015E530 /* GTImageViewCell.m in Sources */,
+				C25AA2441BD770C4000E5E65 /* AppDelegate.m in Sources */,
+				C25AA24B1BD78F04000E5E65 /* GTPageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25AA2281BD76FAD000E5E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25AA2331BD76FAD000E5E65 /* GTHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C25AA22E1BD76FAD000E5E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25AA2121BD76FAD000E5E65 /* GTHome */;
+			targetProxy = C25AA22D1BD76FAD000E5E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C25AA2201BD76FAD000E5E65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25AA2211BD76FAD000E5E65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C25AA2251BD76FAD000E5E65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25AA2261BD76FAD000E5E65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C25AA2341BD76FAD000E5E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C25AA2351BD76FAD000E5E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C25AA2371BD76FAD000E5E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GTHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C25AA2381BD76FAD000E5E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GTHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C25AA23A1BD76FAD000E5E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GTHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTHome.app/GTHome";
+			};
+			name = Debug;
+		};
+		C25AA23B1BD76FAD000E5E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GTHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTHome.app/GTHome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C25AA20E1BD76FAD000E5E65 /* Build configuration list for PBXProject "GTHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25AA2341BD76FAD000E5E65 /* Debug */,
+				C25AA2351BD76FAD000E5E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25AA2361BD76FAD000E5E65 /* Build configuration list for PBXNativeTarget "GTHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25AA2371BD76FAD000E5E65 /* Debug */,
+				C25AA2381BD76FAD000E5E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25AA2391BD76FAD000E5E65 /* Build configuration list for PBXNativeTarget "GTHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25AA23A1BD76FAD000E5E65 /* Debug */,
+				C25AA23B1BD76FAD000E5E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C25AA20B1BD76FAD000E5E65 /* Project object */;
+}
